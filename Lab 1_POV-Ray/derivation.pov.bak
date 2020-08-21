@@ -1,0 +1,8 @@
+camera { fisheye location < -4 , -0.5 , -4 > look_at < 0 , 0 , 0 > }
+
+light_source { < -100, 100, 10 > colour rgb < 100 , 1 , 0 > }    
+
+sphere { < 0 , 2 > , 1 pigment { checker colour rgb < 0 , 1 , 1 >, colour rgb < 0 , 2 , 2 > }}                 
+
+plane { y , -2 pigment { checker colour rgb < 10 , 10 , 10 > colour rgb < 0.5 , 0.5 , 0.5 > }} 
+
